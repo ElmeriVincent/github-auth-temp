@@ -7,7 +7,7 @@ export default function Home() {
   const { data: session } = useSession()
   return (
     <>
-      {session ? <LoggedIn session={session} /> : <LoggedOut session={session} />}
+      {session ? <LoggedIn session={session} /> : <LoggedOut />}
     </>
   )
 }

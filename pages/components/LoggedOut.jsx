@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { signIn } from "next-auth/react"
 import { FaGithub } from 'react-icons/fa';
 
-export default function LoggedOut({ session }) {
+export default function LoggedOut() {
     return (
         <div className='flex justify-center items-center h-screen'>
             <div className="p-6 max-w-sm mx-auto bg-[#1E1E1E] rounded-xl shadow-lg flex items-center space-x-4">
